@@ -1,0 +1,20 @@
+.header{
+    background-color: #293462;
+    text-align: center;
+    display: flex;
+}
+
+.name{
+    margin-left: 2cm;
+}
+
+.one{
+    color: #FFF80A;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.two{
+    margin-left: 10px;
+    color: #D61C4E;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
