@@ -1,0 +1,48 @@
+.product_det{
+    flex: 3;
+    margin: 10px 20px 30px 40px;
+   padding-left: 1cm;
+   background-color:#F7F7F7;
+}
+
+.productRR{
+    display: flex;
+}
+
+.productRating{
+    flex : 6;
+}
+
+.productRate{
+    margin-left: 20px;
+    flex: 3;
+}
+
+.dollar{
+font-size: 20px;
+color: #393E46;
+}
+
+.price{
+    font-size: 1cm;
+}
+
+.productDescription{
+    padding: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about{
+    font-size: 100px;
+}
+
+.productRating{
+    margin-left: 20px;
+}
+
+.desText{
+    font-size: larger;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+

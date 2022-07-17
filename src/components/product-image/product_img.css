@@ -1,0 +1,9 @@
+.product_image{
+    flex : 2;
+}
+
+.img{
+    height: 15cm;
+    width: 100%;
+    margin: 20px;
+}

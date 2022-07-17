@@ -1,6 +1,9 @@
 import React, { useState, useEffect , useParams} from 'react'
+import ProductImg from '../../components/product-image/product_img';
+import ProductDet from '../../components/product_det/product_det';
+import "./product-page.css"
 
-export default function ProductPage(productId) {
+export default function ProductPage({ids}) {
 
     const [product , setProduct] = useState({});
 
@@ -8,20 +11,39 @@ export default function ProductPage(productId) {
         productData();
     }, [])
 
+    
+
     const productData = async () => {
-        const response = await fetch("https://fakestoreapi.com/products/1");
-        console.log(response);
-        const jsonData = await response.blob();
+        const response = await fetch(`https://fakestoreapi.com/products/${ids}`);
+        //console.log(response);
+        const jsonData = await response.json();
         //console.log(jsonData);
         setProduct(jsonData);
-        console.log(product);
       }
         
+
+      const ColoredLine = ({ color }) => (
+        <hr
+            style={{
+                color: color,
+                backgroundColor: color,
+                height: 1
+            }}
+        />
+    );
   return (
-    <div>
-        Title 
-        <div>Price</div>
+    
+    <div className="productPage" >
+    <h1 className="title">{product.title}</h1>
+    <ColoredLine color="grey" />
+      <div className= "product_page" >
+        
+        <ProductImg productTitle={product.title} imageUrl = {product.image}/>
+        <ProductDet productData={product}/>
+      </div>
     </div>
+
+    
     
   );
 }

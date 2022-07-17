@@ -1,0 +1,12 @@
+.product_page{
+    display: flex;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;   
+    text-align: center;
+    
+    padding: 25px;
+    color: #393E46;
+}
+
