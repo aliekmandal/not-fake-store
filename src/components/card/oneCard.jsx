@@ -1,21 +1,12 @@
+//Card design code for main page
+//contains image, price, rating, count for rating
+
 import * as React from "react";
 import Card from "@mui/material/Card";
 import { CardActionArea, Typography } from "@mui/material";
 import "./oneCard.css";
 import { Rating } from "@mui/material";
-import { createTheme, ThemeProvider } from "@material-ui/core/styles";
-
-const theme = createTheme({
-  typography: {
-    fontFamily: [
-      "Nunito",
-      "Roboto",
-      "Helvetica Neue",
-      "Arial",
-      "sans-serif",
-    ].join(","),
-  },
-});
+ 
 
 export default function oneCard({ values }) {
   return (

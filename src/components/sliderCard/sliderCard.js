@@ -1,16 +1,18 @@
+//product page
+//similar products component to SHOW image of product, price
+//if() condition helps to get similar catergory products
+//getting the {Product Catrgory , Current Product Category}
+
 import React from "react";
 import "./sliderCard.css";
 import Card from "@mui/material/Card";
-import { CardActionArea, Typography } from "@mui/material";
+import { CardActionArea} from "@mui/material";
 
 export default function SimilarCard({
   values,
   productCat,
   curCat,
-  productTitle,
-  curTtile,
 }) {
-  console.log(values);
 
   if (productCat == curCat) {
     if (1) {

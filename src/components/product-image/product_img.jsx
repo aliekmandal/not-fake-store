@@ -1,3 +1,5 @@
+//product page (left side) component to view the product image
+
 import React from "react";
 import "./product_img.css";
 

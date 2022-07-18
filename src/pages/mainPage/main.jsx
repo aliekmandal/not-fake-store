@@ -1,3 +1,5 @@
+//this the main page where all products are shown
+
 import { Grid } from "@mui/material";
 import * as React from "react";
 import { useEffect, useState } from "react";

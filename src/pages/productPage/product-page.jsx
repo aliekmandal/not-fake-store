@@ -1,3 +1,7 @@
+//https://fakestore.com/products/ID
+//according to the ID of the product showing the details of the product in the product page
+
+
 import React, { useState, useEffect, useParams } from "react";
 import ProductImg from "../../components/product-image/product_img";
 import ProductDet from "../../components/product_det/product_det";

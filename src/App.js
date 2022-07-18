@@ -1,3 +1,7 @@
+//mainly have 2 pages
+//PAGE 1 : Main page (getting data from {"https:fakestoreapi.com/products"}) --> path {/}
+//PAGE 2 : Product Page (getting data from {"https:fakestoreapi.com/product/ID"} using ID in url) --> path {/product/ID}
+
 import "./App.css";
 import * as React from "react";
 import Header from "./components/header/header";

@@ -1,3 +1,5 @@
+//product page (right side) component to view the ABOUT, PRICE, SIMILAR PRODUCTS, RATING
+
 import { Rating } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
