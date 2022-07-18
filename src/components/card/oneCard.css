@@ -1,12 +1,25 @@
-.product-card{
-    margin: 20px;
+.product-card {
+  margin: 20px;
 }
-.product-title{
-    margin-left: 30px;
+.product-title {
+  margin-left: 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: larger;
 }
 
-.productImg{
-    object-fit: contain;
-    height: 200px;
-    width: 300px;
+.productImg {
+  object-fit: contain;
+  height: 200px;
+  width: 300px;
+}
+
+.productValue {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 6.5cm;
+  font-size: 20px;
+}
+
+.dollar {
+  font-size: 30px;
+  color: #393e46;
 }

@@ -1,48 +1,61 @@
-.product_det{
-    flex: 3;
-    margin: 10px 20px 30px 40px;
-   padding-left: 1cm;
-   background-color:#F7F7F7;
+.product_det {
+  flex: 3;
+  margin: 10px 20px 30px 40px;
+  padding-left: 1cm;
+  background-color: #f7f7f7;
 }
 
-.productRR{
-    display: flex;
+.productRR {
+  display: flex;
 }
 
-.productRating{
-    flex : 6;
+.productRating {
+  flex: 6;
 }
 
-.productRate{
-    margin-left: 20px;
-    flex: 3;
+.productRate {
+  margin-left: 20px;
+  flex: 3;
 }
 
-.dollar{
-font-size: 20px;
-color: #393E46;
+.dollar {
+  font-size: 20px;
+  color: #393e46;
 }
 
-.price{
-    font-size: 1cm;
+.price {
+  font-size: 1cm;
 }
 
-.productDescription{
-    padding: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
+.productDescription {
+  padding: 25px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.about{
-    font-size: 100px;
+.similar-products {
+  padding: 25px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.productRating{
-    margin-left: 20px;
+.simText {
+  font-size: 30px;
+  margin-right: 10px;
+  font-weight: 900;
 }
 
-.desText{
-    font-size: larger;
-    font-family: 'Titillium Web', sans-serif;
-    
+.simCat {
+  color: #929aab;
 }
 
+.about {
+  font-size: 100px;
+}
+
+.productRating {
+  margin-left: 20px;
+}
+
+.desText {
+  font-size: larger;
+  font-family: "Titillium Web", sans-serif;
+}

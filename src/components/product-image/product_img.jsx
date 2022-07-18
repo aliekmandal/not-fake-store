@@ -1,12 +1,12 @@
-import React from 'react'
-import "./product_img.css"
+import React from "react";
+import "./product_img.css";
 
-export default function ProductImg({imageUrl, productTitle}) {
+export default function ProductImg({ imageUrl, productTitle }) {
   return (
-    <div className="product_image">       
-            <div>
-            <img src = {imageUrl} className = "img"/>
-            </div>
+    <div className="product_image">
+      <div>
+        <img src={imageUrl} className="img" />
+      </div>
     </div>
-  )
+  );
 }

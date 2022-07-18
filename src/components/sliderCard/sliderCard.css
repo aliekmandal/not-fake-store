@@ -7,3 +7,8 @@
     height: 160px;
     width: 190px;
 }
+
+.price-text{
+    margin-left: 1.8cm;
+    color: rgb(188, 50, 0);
+}
